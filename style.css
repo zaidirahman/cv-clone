@@ -1,27 +1,66 @@
+body {
+   margin: auto;
+   max-width: 1032px;
+}
+
 .global {
     margin: 50px;
 }
-.center {
-    text-align: center;
-}
-h1 {
-    font-size:xx-large;
-    font-family:'Times New Roman', Times, serif;
-    margin-bottom: 0%;
-}
 
-h2 {
-    font-size:x-large;
-    font-family:'Times New Roman', Times, serif;
-    margin-bottom: 0%;
-}
-
-a {
-    color: black;
-    text-decoration: underline;
+.format{
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 2px;
 }
 
 hr.solid {
     border-top: 2px solid #777474;
     margin-top: 0%;
+}
+
+.center {
+    text-align: center;
+}
+
+.align-right {
+    margin: 0%;
+    text-align: right;
+}
+
+.space {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.list {
+    margin-top: 0;
+    margin-left: 4px;
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0%;
+}
+
+h2 {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0%;
+}
+
+h3 {
+    font-size: medium;
+    font-weight: bolder;
+    margin: 0%;
+}
+
+p {
+    font-size: medium;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
 }
